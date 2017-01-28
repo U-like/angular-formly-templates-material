@@ -5,7 +5,7 @@ cache:
 notifications:
   email: false
 node_js:
-  - iojs
+  - 6
 before_install:
   - npm install
   - export DISPLAY=:99.0
